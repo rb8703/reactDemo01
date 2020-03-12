@@ -15,7 +15,7 @@ constructor(props) {
 
   handleClick(e){
 		// console.log("点击按钮")	;
-		if (this.state.inputValue==="") {
+		if (this.state.inputValue=="") {
 			return;
 		}
 		this.setState({
